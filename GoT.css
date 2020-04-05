@@ -1,7 +1,7 @@
-header, nav, section, aside, footer {
+header, nav, .mainbody, .members, footer {
   border-style: groove;
 }
-div {
+.mainbackground {
   background-color: rgb(185, 185, 163);
 }
 header {
@@ -11,12 +11,12 @@ header {
   text-align: center;
   font-size: 40px;
   }
-section {
-  width: 950px;
+.mainbody {
+  width: 75%;
   text-align: left;
   font-size: larger;
 }
 nav {
-  width: 950px;
+  width: 75%;
   background-color: rgb(160, 160, 168);
 }
